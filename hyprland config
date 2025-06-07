@@ -1,0 +1,15 @@
+decoration {
+        dim_special = 0.3
+        active_opacity = .8
+        rounding = 2
+        fullscreen_opacity = 1
+        inactive_opacity = 1
+        rounding_power = 1
+        dim_around = 1
+        blur {
+                special = true
+        }
+}
+source = ~/.config/hypr/hud.conf
+bind = SUPER, p, workspace, +1
+bind = SUPER, m, workspace, -1
