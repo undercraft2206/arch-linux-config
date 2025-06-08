@@ -1,14 +1,60 @@
 decoration {
-        dim_special = 0.3
-        active_opacity = .8
-        rounding = 2
-        fullscreen_opacity = 1
-        inactive_opacity = 1
-        rounding_power = 1
-        dim_around = 1
-        blur {
-                special = true
-        }
+	dim_special = 0.3
+	active_opacity = .7
+	rounding = 2
+	fullscreen_opacity = 1
+	inactive_opacity = .5
+	rounding_power = 2
+	dim_around = 1
+    dim_strength = .5
+	blur {
+		special = true
+        size = 8
+        xray = false
+        brightness = 0.8172
+        popups = true
+        ignore_opacity = true
+        new_optimizations = true
+        noise = 0.0117
+        contrast = 0.8916
+        vibrancy_darkness = 3
+        vibrancy = 0.1696
+        popups_ignorealpha = 0.2
+	}
+    shadow {
+        enabled = true
+        sharp = false
+    }
+    input {
+    }
+gestures {
+}
+group{
+}
+}
+misc {
+    disable_hyprland_logo = true
+    mouse_move_enables_dpms = false
+    animate_manual_resizes = true
+    allow_session_lock_restore = true
+}
+input {
+    touchpad {
+        natural_scroll = false
+    }
+}
+xwayland {
+    enabled = true
+}
+cursor {
+    sync_gsettings_theme = true
+    inactive_timeout = 0
+    zoom_factor = 1.0
+    enable_hyprcursor = true
+}
+ecosystem {
+    no_donation_nag = true
+    enforce_permissions = false
 }
 source = ~/.config/hypr/hud.conf
 bind = SUPER, p, workspace, +1
