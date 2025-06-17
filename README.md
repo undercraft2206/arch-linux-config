@@ -4,7 +4,7 @@ my arch linux configuration
 with "hyprland-config" go to the file "~/.config/hypr/hyprland.conf" add the text in hyprland.config .After double click on file "install_Ax-Shell-main.sh" for install the bar on the top
 (Just the before don't have the bar on the top, the bar on the top is from ax-shell main)
 
-BEFORE
+BEFORE (BEFORE DON'T HAVE THE BAR IN THE TOP)
 ![2025-06-08-181608_hypr_screenshot](https://github.com/user-attachments/assets/24725755-94ff-4a9d-8051-178204dc74bf)
 
 AFTER
